@@ -68,8 +68,8 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
+  - VOLUME DOWN
   - VOLUME UP
-  - Vol Down
   - $$mdi:apple-keyboard-shift$$
   - PLAY PAUSE
   - ⏭️
