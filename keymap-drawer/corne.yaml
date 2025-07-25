@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - '&studio_unlock'
-  - ␣
+  - LEFT CONTROL
   - ⏎
   - {t: '&studio_unlock', type: held}
-  - LEFT CONTROL
+  - {t: ▽, type: trans}
