@@ -59,21 +59,21 @@ layers:
   - F11
   - F12
   - BT CLR
-  - BT NXT
-  - '&bl BL_TOG'
-  - '&bl BL_CYCLE'
-  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
-  - {t: ▽, type: trans}
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - LEFT ARROW
-  - UP ARROW
   - DOWN ARROW
+  - UP ARROW
   - RIGHT ARROW
   - VOLUME UP
   - Vol Down
   - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - ⏭️
+  - PREVIOUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
