@@ -71,9 +71,9 @@ layers:
   - VOLUME DOWN
   - VOLUME UP
   - $$mdi:apple-keyboard-shift$$
-  - PLAY PAUSE
-  - ⏭️
-  - PREVIOUS
+  - LEFT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - '&studio_unlock'
-  - LEFT CONTROL
+  - ␣
   - ⏎
   - {t: '&studio_unlock', type: held}
   - {t: ▽, type: trans}
