@@ -1,12 +1,12 @@
 layout: {zmk_keyboard: corne}
 layers:
   BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', LEFT CONTROL, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V,
-    B, N, M, ',', ., /, ESCAPE, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, LEFT ALT]
+    B, N, M, ',', ., /, RIGHT SHIFT, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, LEFT ALT]
   LOW:
+  - ESCAPE
   - '~'
   - '!'
   - '@'
-  - '#'
   - (
   - )
   - '*'
@@ -15,10 +15,10 @@ layers:
   - '9'
   - +
   - $$mdi:backspace-outline$$
+  - '#'
   - $
   - '%'
   - ^
-  - AMPERSAND
   - '['
   - ']'
   - /
@@ -28,10 +28,10 @@ layers:
   - '-'
   - ':'
   - $$mdi:apple-keyboard-shift$$
+  - AMPERSAND
   - '`'
   - \
   - '|'
-  - '-'
   - _
   - '='
   - '1'
