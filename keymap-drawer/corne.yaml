@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', LEFT CONTROL, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V,
-    B, N, M, ',', ., /, RIGHT SHIFT, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, LEFT ALT]
+  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, LEFT CONTROL, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, M, ',', .,
+    /, RIGHT SHIFT, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, LEFT ALT]
   LOW:
   - ESCAPE
   - '~'
@@ -72,7 +72,7 @@ layers:
   - VOLUME UP
   - $$mdi:apple-keyboard-shift$$
   - LEFT CONTROL
-  - {t: ▽, type: trans}
+  - AC NEXT KEYBOARD LAYOUT SELECT
   - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-next-outline$$', type: tap_dance}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
